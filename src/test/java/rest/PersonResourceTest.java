@@ -1,4 +1,4 @@
-package rest;
+/*package rest;
 
 import entities.RenameMe;
 import utils.EMF_Creator;
@@ -104,3 +104,4 @@ public class PersonResourceTest {
                 .body("count", equalTo(2));
     }
 }
+*/
