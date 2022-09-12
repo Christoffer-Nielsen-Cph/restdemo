@@ -36,7 +36,7 @@ public class PersonResource {
 
 
 
- /*   @POST
+   /*@POST
     @Produces({MediaType.APPLICATION_JSON})
     @Consumes({MediaType.APPLICATION_JSON})
     public Response postExample(String input){
@@ -44,6 +44,6 @@ public class PersonResource {
         System.out.println(rmdto);
         return Response.ok().entity(rmdto).build();
     }
+*/
 
- */
 }
