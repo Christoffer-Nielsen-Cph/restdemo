@@ -25,6 +25,17 @@ public class PersonResource {
         return "{\"msg\":\"Hello World\"}";
     }
 
+
+    @GET
+    @Path("/all")
+    @Produces({MediaType.APPLICATION_JSON})
+    public Response getAllPersons() {
+        return Response.ok().entity(GSON.toJson(FACADE.getAll())).build();
+    }
+
+
+
+
  /*   @POST
     @Produces({MediaType.APPLICATION_JSON})
     @Consumes({MediaType.APPLICATION_JSON})
