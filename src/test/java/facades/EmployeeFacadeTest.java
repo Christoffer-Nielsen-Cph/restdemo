@@ -13,6 +13,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 //Uncomment the line below, to temporarily disable this test
 //@Disabled
+//
 public class EmployeeFacadeTest {
 
     private static EntityManagerFactory emf;
