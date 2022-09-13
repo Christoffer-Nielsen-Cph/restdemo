@@ -24,6 +24,11 @@ public class PersonDTO {
         this.name = name;
         this.age = age;
     }
+    public PersonDTO(long id, String name, int age) {
+        this.id = id;
+        this.name = name;
+        this.age = age;
+    }
 
     public static List<PersonDTO> getDtos(List<Person> persons){
         List<PersonDTO> personsDtos = new ArrayList();
