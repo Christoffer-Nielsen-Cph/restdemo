@@ -1,4 +1,4 @@
-package facades;
+/*package facades;
 
 import utils.EMF_Creator;
 import entities.RenameMe;
@@ -59,6 +59,7 @@ public class PersonFacadeTest {
     public void testAFacadeMethod() throws Exception {
         assertEquals(2, facade.getRenameMeCount(), "Expects two rows in the database");
     }
-    */
+
 
 }
+*/
